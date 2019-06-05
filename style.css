@@ -1,0 +1,91 @@
+body {
+	margin: 0;
+	background-color: #333333;
+}
+
+.topo {
+	background-image: url("img/bgtopo.jpg");
+	text-align: center;
+	float: left;
+	width: 100%;
+	height: 800px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+.menu{
+	background-color: #191919;
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	text-align: center;
+	z-index: 999;
+	font-size: 24px;
+	font-family: sans-serif;
+
+}
+
+.info{
+	width: 50%;
+	box-sizing: border-box;
+	float: left;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-bottom: 200px;
+	padding-top: 100px;
+}
+
+#info{
+	float: left;
+}
+
+.imagem1{
+	background-image: url(img/imagem1.jpg);
+	background-color: black;
+	height: 300px;
+}
+
+.imagem2{
+	background-image: url(img/imagem2.jpg);
+	background-color: black;
+	height: 300px;
+}
+
+.texto{
+	padding: 50px;
+	background-color: white;
+	font-size: 18px;
+	font-family: sans-serif;
+	line-height: 26px;
+}
+
+ul{
+	text-decoration: none;
+	list-style-type: none;
+}
+
+li{
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover{
+	color: #daf1b1;
+}
+
+h1{
+	border: solid 1px;
+	padding: 100px;
+	font-family: sans-serif;
+	color: #ffff98;
+}
